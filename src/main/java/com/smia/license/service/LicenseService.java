@@ -1,9 +1,11 @@
 package com.smia.license.service;
 
 import com.smia.license.model.License;
+import org.springframework.stereotype.Service;
 
 import java.util.Random;
 
+@Service
 public class LicenseService {
 
     public License getLicense(String licenseId, String organizationId) {
